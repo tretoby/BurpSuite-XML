@@ -9,121 +9,157 @@ Leverage **Burp Suite** to intercept and analyze web page requests, identify pot
 
 ### **1. Launch Burp Suite**  
 Begin by starting Burp Suite to initialize the testing environment.  
-![image](https://github.com/user-attachments/assets/3bcc2a4f-59de-4fc2-b707-3c1dfb38196e)
+
+<img width="586" alt="image" src="https://github.com/user-attachments/assets/d88f99f9-e855-4f99-81b3-3c70f1b437b9">
+
 
 ---
 
 ### **2. Access the Proxy Tab**  
 Navigate to the **Proxy** tab to enable interception of requests between the browser and the server.  
-![image](https://github.com/user-attachments/assets/dc0793a1-42c7-46c8-94eb-1cfad961b81a)
+
+<img width="604" alt="image" src="https://github.com/user-attachments/assets/59e8fcec-ebf3-4c0c-9229-8378a079a090">
+
 
 ---
 
 ### **3. Open the Burp Suite Browser**  
 Use the Burp Suite browser to interact with the target web application for testing.  
-![image](https://github.com/user-attachments/assets/dcbbe82c-e725-4233-87ae-cc2630fe9bc3)
+
+<img width="602" alt="image" src="https://github.com/user-attachments/assets/62cd4d9a-45e5-4637-ab9f-8b2cd8179007">
+
 
 ---
 
 ### **4. Navigate to the Target Webpage**  
 Access the webpage through the **Burp Browser**, preparing for analysis and testing.  
-![image](https://github.com/user-attachments/assets/41e74e0f-f034-4409-ad00-7c538a22b5eb)
+<img width="585" alt="image" src="https://github.com/user-attachments/assets/008c6491-0d2a-421c-b545-759643212ce3">
+
 
 ---
 
 ### **5. Enable Request Interception**  
 Return to the **Proxy** tab and enable **Intercept** to capture HTTP requests.  
-![image](https://github.com/user-attachments/assets/955976bf-351d-4541-8784-8fdb42ccfc4f)
+
+<img width="598" alt="image" src="https://github.com/user-attachments/assets/0e566f0b-fdfc-4a7a-aa58-1d079e5f55d3">
+
 
 ---
 
 ### **6. Familiarize Yourself with the Proxy Tabs**  
 Review the different tabs in the **Proxy** interface to understand available options for analysis.  
-![image](https://github.com/user-attachments/assets/c5f51cba-b01d-4eed-b672-2f7dde9fc149)
+
+<img width="567" alt="image" src="https://github.com/user-attachments/assets/7e903ee0-f4c4-48e6-a292-7d27592ee417">
+
 
 ---
 
 ### **7. Intercept and Forward Requests**  
 Capture a request using the proxy and click **Forward** to send it to the server.  
-![image](https://github.com/user-attachments/assets/9afb8580-a136-4d8f-a102-4e130830ac22)
+
+<img width="601" alt="image" src="https://github.com/user-attachments/assets/3cd32670-390d-4223-b420-dbcd74ada564">
+
 
 ---
 
 ### **8. Perform Actions on the Webpage**  
 Perform actions like adding an item to the wishlist or cart, and observe how Burp Suite captures the requests.  
-![image](https://github.com/user-attachments/assets/68f76a9f-3f44-4e7b-8afa-bf4c110ffc7f)
+
+<img width="588" alt="image" src="https://github.com/user-attachments/assets/b6ba3d14-1dc8-4b96-abcf-ef45aead8dd5">
+
 
 ---
 
 ### **9. Analyze Intercepted HTML Data**  
 Examine the intercepted HTML request details within the Proxy tab.  
-![image](https://github.com/user-attachments/assets/31a1b325-5435-4773-960b-bdcc5775dbb4)
+
+<img width="594" alt="image" src="https://github.com/user-attachments/assets/0729b848-6cdd-4550-a836-4910be4eed82">
+
 
 ---
 
 ### **10. Forward Requests for Additional Actions**  
 Continue forwarding requests to the server as you navigate actions like proceeding to checkout.  
-![image](https://github.com/user-attachments/assets/a480e49f-8dab-4017-9019-47b27e85daab)
+
+<img width="589" alt="image" src="https://github.com/user-attachments/assets/f3ee559f-24b0-4e6f-b910-d7b0d48d42c1">
+
 
 ---
 
 ### **11. Complete Checkout and Capture Requests**  
 Fill out checkout details such as name and address, and capture the corresponding requests.  
-![image](https://github.com/user-attachments/assets/39f8e840-01b4-442e-9e76-53fa6ae08525)
+
+<img width="597" alt="image" src="https://github.com/user-attachments/assets/82933363-2999-4878-9dcd-0abd8859a4f6">
 
 ---
 
 ### **12. Turn Off Interception**  
 Disable request interception to stop capturing further actions once the necessary steps are complete.  
-![image](https://github.com/user-attachments/assets/3bb1b1f5-6154-42a6-ba3b-c46bd0b7bfeb)
+
+<img width="597" alt="image" src="https://github.com/user-attachments/assets/7e4b065b-f4d2-4dc1-921b-06dc80aabd84">
+
 
 ---
 
 ### **13. Use the Repeater Tool**  
 Switch to the **Repeater** tab to analyze intercepted HTML requests more thoroughly.  
-![image](https://github.com/user-attachments/assets/9271221f-09af-4671-a1be-ef858bd4723a)
+<img width="594" alt="image" src="https://github.com/user-attachments/assets/5bcae518-c147-4364-ba30-e94445ecd0a1">
+
 
 ---
 
 ### **14. Inject XML Payloads**  
 Add an XML payload to include references to external entities and test for vulnerabilities.  
-![image](https://github.com/user-attachments/assets/0b15ff1e-b467-4749-8860-341b061c2772)
+
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/1b2718a8-e09c-4b0d-a435-c3617e88a702">
+
 
 ---
 
 ### **15. Exploit the Vulnerability**  
 Replace a parameter’s value with `&payload`, send the request, and verify if the application reveals sensitive information.  
-![image](https://github.com/user-attachments/assets/50942556-9405-4a7e-baaa-25d78ae2be6d)
+
+<img width="593" alt="image" src="https://github.com/user-attachments/assets/ce26c204-0bdf-4a45-ba54-6071a3d7d4ed">
+
 
 ---
 
 ### **16. Access User Data via XXE**  
 Use crafted payloads to access user information, such as `/var/www/html/wishes/wish_21.txt`.  
-![image](https://github.com/user-attachments/assets/9eef8b84-37cb-4440-845b-d3832eb4e6dc)
+
+<img width="599" alt="image" src="https://github.com/user-attachments/assets/48fb60d0-e82d-464d-8230-78dc283f6e30">
+
 
 ---
 
 ### **17. Enumerate Other User Data**  
 Modify the payload (e.g., change `wish_21` to `wish_1`) to access other users’ data, including names and addresses.  
-![image](https://github.com/user-attachments/assets/d429054f-041a-483d-ae57-531d3dd8d468)
+
+<img width="557" alt="image" src="https://github.com/user-attachments/assets/ec1b85d6-2577-42dd-9079-729baff51e59">
+
 
 ---
 
 ### **18. Send Requests to Intruder**  
 Forward the crafted request to **Intruder** to automate attacks on multiple targets.  
-![image](https://github.com/user-attachments/assets/40e6848e-fe59-441e-ad03-bf5876ee4f4f)
+<img width="594" alt="image" src="https://github.com/user-attachments/assets/fc11216b-20ed-43cb-870a-6be152f4a386">
+
 
 ---
 
 ### **19. Configure Intruder Payloads**  
 Define the payload range (e.g., numbers 1–20) to test for vulnerabilities across multiple user accounts.  
-![image](https://github.com/user-attachments/assets/f55d011a-5654-4552-99e9-74566858d3df)
+
+<img width="596" alt="image" src="https://github.com/user-attachments/assets/211075b6-de2b-4a77-a8e3-6e25ed966f90">
+
 
 ---
 
 ### **20. Execute the Attack**  
 Launch the attack from Intruder to extract data from all 20 user accounts.  
-![image](https://github.com/user-attachments/assets/96774249-9ab0-492c-9b63-281c7e9b7284)
+
+<img width="601" alt="image" src="https://github.com/user-attachments/assets/7b367683-70e1-4883-931c-68f90050e7ae">
+
 
 ---
 
